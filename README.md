@@ -17,16 +17,25 @@ Este repositório reúne experimentos visuais feitos em Python que simulam a flu
 - Experimentos com padrões naturais e fractais  
 
 ---
-![image](https://github.com/user-attachments/assets/a6d3edb3-2655-4bed-90ab-65194bc3fa49)    
+## 1 - Ondas Tubulares luminosas
 
+![image](https://github.com/user-attachments/assets/4817030c-ee54-4ddc-ba77-cf96d0745e94)
 
-## 1- Arte: Partícula de água
-Descrição:
-Esta arte simula partículas de água caindo, representadas por gotas em movimento com círculos transparentes sobrepostos que criam um efeito visual realista de respingos e movimento fluido da água. A dinâmica das partículas imita a queda natural da chuva, trazendo sensação de frescor e vida à composição.
+## Descrição da Arte:
 
-Por que é legal usar partículas de água na arte digital?
-As partículas permitem criar efeitos visuais dinâmicos e realistas de líquidos em movimento, essenciais para representar água, chuva, respingos e outros fenômenos naturais. Elas dão profundidade e textura às imagens, além de possibilitar animações fluidas que prendem a atenção do observador e transmitem sensações reais.
+Ondas Tubulares Luminosas é uma representação visual que combina elementos matemáticos e artísticos para evocar a fluidez e a beleza das ondas aquáticas. Utilizando funções trigonométricas para criar ondulações tubulares em 2D, a obra traduz o movimento orgânico da água em padrões sinuosos e entrelaçados. A paleta de azuis e brancos translúcidos, combinada com variações de transparência, simula a reflexão e refração da luz na superfície da água, criando uma sensação de profundidade e brilho etéreo.
 
-Biblioteca utilizada: Pillow (PIL)
-A biblioteca Pillow é amplamente usada em Python para manipulação e criação de imagens. Permite desenhar formas simples com transparência, trabalhar com camadas e gerar composições visuais complexas de maneira eficiente e intuitiva. No exemplo da partícula de água, Pillow é usada para criar gotas translúcidas que, sobrepostas, simulam o aspecto natural das partículas de água.
+## Biblioteca Usada:
+
+A arte foi criada utilizando a biblioteca Matplotlib em Python, uma ferramenta robusta para visualização gráfica e plotagem 2D. Matplotlib é ideal para esse projeto porque:
+
+Permite o controle preciso das cores, transparências e formas geométricas;
+
+Suporta a criação de gradientes de cor e manipulação avançada de linhas;
+
+Possui facilidade para plotar funções matemáticas e sequências de pontos, essenciais para gerar as ondulações e variações da arte tubular;
+
+É amplamente utilizada, documentada e integra facilmente com outras bibliotecas científicas em Python.
+
+Essa arte combina a matemática com a estética visual, mostrando como equações simples podem gerar imagens complexas e belas. Ela estimula a contemplação sobre os padrões naturais, especialmente a água em movimento, e provoca uma experiência visual que lembra tanto a ciência quanto a poesia. Além disso, é uma forma inovadora de explorar programação para criar arte digital, tornando acessível a combinação de lógica e criatividade.
 
