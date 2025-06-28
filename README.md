@@ -18,8 +18,4 @@ Este repositório reúne experimentos visuais feitos em Python que simulam a flu
 
 ---
 
-## Como usar
 
-1. Clone o repositório:  
-   ```bash
-   git clone https://github.com/seuusuario/arte-sobre-aguas.git
