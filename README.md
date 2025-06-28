@@ -54,6 +54,33 @@ Matplotlib é uma biblioteca poderosa para criação de gráficos e visualizaç�
 
 
 ## A inspiração para Fluxo Abstrato Azul vem da observação da natureza da água — sua capacidade de se moldar em formas fluidas, ondulantes e sempre em transformação. O desejo foi traduzir essa essência líquida em uma forma abstrata, onde a matemática e a programação atuam como pincéis digitais. Essa fusão entre arte e ciência revela a beleza oculta nas formas naturais e destaca o potencial criativo da programação como meio artístico.
+---
+
+## 3 - Redemoinho Aquático 
+
+![image](https://github.com/user-attachments/assets/604c5b4a-264c-4385-a7d9-3857e73dd5ce)
+
+## Descrição da Arte
+
+Redemoinho Aquático é uma obra visual programada com a biblioteca Pygame, que simula o movimento de múltiplas espirais líquidas em constante rotação. Composta por camadas translúcidas em tons de azul claro e ciano, a arte evoca o fluxo de correntes marítimas, redemoinhos e a fluidez da água em movimento.
+Cada camada da espiral é construída a partir de funções trigonométricas e atualizada em tempo real, criando um efeito hipnotizante de rotação contínua. O movimento ondulatório, combinado com o uso de transparência e sobreposição, resulta em uma sensação de profundidade e leveza visual.
+
+## Biblioteca Utilizada
+
+A arte foi desenvolvida com a biblioteca Pygame, uma ferramenta de desenvolvimento gráfico em Python. Pygame é normalmente usada para jogos e simulações interativas, mas neste caso, foi escolhida como meio artístico por permitir:
+
+-Animações suaves em tempo real FPS controlado;
+
+-Manipulação direta de superfícies e transparências alpha;
+
+-Controle detalhado da renderização de formas geométricas;
+
+-Criação de visuais gráficos performáticos com alta responsividade.
+
+Esse controle direto da tela e dos pixels possibilitou a criação de uma experiência visual fluida, imersiva e contínua, difícil de obter com bibliotecas de visualização mais tradicionais.
+
+## O Redemoinho Aquático surgiu da observação dos padrões naturais de rotação e fluxo encontrados no mar — desde o movimento de um vórtice até a forma como a água responde ao vento e à gravidade. A obra busca transformar esses elementos físicos em traços digitais, onde a matemática e a arte se encontram para dar vida a uma simulação visual que pulsa, gira e respira como a própria água.
+
 
 
 
