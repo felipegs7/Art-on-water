@@ -38,4 +38,24 @@ Possui facilidade para plotar funções matemáticas e sequências de pontos, es
 É amplamente utilizada, documentada e integra facilmente com outras bibliotecas científicas em Python.
 
 Essa arte combina a matemática com a estética visual, mostrando como equações simples podem gerar imagens complexas e belas. Ela estimula a contemplação sobre os padrões naturais, especialmente a água em movimento, e provoca uma experiência visual que lembra tanto a ciência quanto a poesia. Além disso, é uma forma inovadora de explorar programação para criar arte digital, tornando acessível a combinação de lógica e criatividade.
+---
+
+## 2 - Fluxo Abstrato Azul
+
+![image](https://github.com/user-attachments/assets/950ee7b1-6cd2-4d68-970a-d377064526cd)
+
+## Descrição da Arte:
+
+Fluxo Abstrato Azul é uma obra digital que explora a fluidez e a beleza do elemento água por meio de formas abstratas e cores harmoniosas. Inspirada no movimento orgânico dos líquidos, essa arte combina curvas Bézier suaves e camadas transparentes em tons de azul para criar uma sensação de profundidade e dinamismo.
+
+## Biblioteca Usada:
+
+Matplotlib é uma biblioteca poderosa para criação de gráficos e visualizações 2D em Python. Sua flexibilidade permite o controle detalhado sobre elementos gráficos, como curvas, preenchimentos, transparências e gradientes. Isso torna possível transformar equações matemáticas e algoritmos em expressões visuais ricas, como nesta arte abstrata, onde formas geométricas são combinadas para criar texturas e profundidades visuais.
+
+
+## A inspiração para Fluxo Abstrato Azul vem da observação da natureza da água — sua capacidade de se moldar em formas fluidas, ondulantes e sempre em transformação. O desejo foi traduzir essa essência líquida em uma forma abstrata, onde a matemática e a programação atuam como pincéis digitais. Essa fusão entre arte e ciência revela a beleza oculta nas formas naturais e destaca o potencial criativo da programação como meio artístico.
+
+
+
+
 
