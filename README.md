@@ -28,7 +28,8 @@ integrando-se ao projeto Museu Virtual para celebrar a beleza e complexidade da 
 ---
 ## 1 - Ondas Tubulares luminosas
 
-![image](https://github.com/user-attachments/assets/4817030c-ee54-4ddc-ba77-cf96d0745e94)
+![image](https://github.com/user-attachments/assets/3c074282-88d2-43a0-9764-288825d798c0)
+
 
 ## Descrição da Arte:
 
@@ -41,7 +42,8 @@ uma sensação de profundidade e brilho etéreo.
 
 ## 2 - Fluxo Abstrato Azul
 
-![image](https://github.com/user-attachments/assets/611b98d3-f21a-439a-b736-a96a0b5de9f8)
+![image](https://github.com/user-attachments/assets/caade966-9ccb-4a41-ab07-3016a458d31c)
+
 
 
 ## Descrição da Arte:
