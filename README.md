@@ -82,6 +82,22 @@ Esse controle direto da tela e dos pixels possibilitou a criação de uma experi
 ## O Redemoinho Aquático surgiu da observação dos padrões naturais de rotação e fluxo encontrados no mar — desde o movimento de um vórtice até a forma como a água responde ao vento e à gravidade. A obra busca transformar esses elementos físicos em traços digitais, onde a matemática e a arte se encontram para dar vida a uma simulação visual que pulsa, gira e respira como a própria água.
 
 
+## 4 - Ondas de Luminiscência
+
+![image](https://github.com/user-attachments/assets/8fb097f5-2d16-41d6-87de-3fa821b3cb44)
+
+
+## Descrição da Arte
+A obra digital “Ondas de Luminiscência: Reflexos da Água em Movimento” explora a essência fluida e translúcida da água por meio de uma superfície ondulada e iluminada, capturando a interação dinâmica entre luz e sombra sobre a água em movimento. A composição apresenta ondas suaves e multidirecionais que se entrelaçam, criando relevo e profundidade que evocam a sensação realista de uma superfície líquida vibrante.
+
+A técnica combina funções matemáticas avançadas para modelar a topografia da água com uma simulação de iluminação que gera reflexos e sombreamento naturais, construindo uma experiência visual imersiva. A escolha de tons azuis profundos e translúcidos reforça o realismo e a serenidade do elemento aquático.
+
+@@ Biblioteca Utilizada
+Esta arte foi desenvolvida em Python, utilizando as bibliotecas Matplotlib e NumPy. O Matplotlib é uma biblioteca poderosa para criação de gráficos e visualizações estáticas, que inclui recursos avançados de iluminação e sombreamento, essenciais para simular o relevo e os reflexos da superfície da água. O NumPy facilita a manipulação eficiente de arrays e a geração das funções matemáticas que definem as ondulações e variações da superfície líquida.
+
+Juntas, essas ferramentas permitem a criação de artes digitais sofisticadas com controle preciso sobre formas, cores e efeitos de luz, potencializando a expressão artística no ambiente virtual.
+
+Esta peça integra o projeto Museu Virtual, que busca unir tecnologia e expressão artística para celebrar a beleza da natureza em suas formas digitais.
 
 
 
