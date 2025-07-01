@@ -28,15 +28,17 @@ integrando-se ao projeto Museu Virtual para celebrar a beleza e complexidade da 
 ---
 ## 1 - Ondas Tubulares luminosas
 
-![image](https://github.com/user-attachments/assets/3c074282-88d2-43a0-9764-288825d798c0)
+![image](https://github.com/user-attachments/assets/3e5748a4-12f5-473f-afc6-f19637b897f9)
 
 
 ## Descrição da Arte:
 
-Ondas Tubulares Luminosas é uma representação visual que combina elementos matemáticos e artísticos para evocar a fluidez e a beleza das ondas aquáticas. 
-Utilizando funções trigonométricas para criar ondulações tubulares em 2D, a obra traduz o movimento orgânico da água em padrões sinuosos e entrelaçados.
-A paleta de azuis e brancos translúcidos, combinada com variações de transparência, simula a reflexão e refração da luz na superfície da água, criando 
-uma sensação de profundidade e brilho etéreo.
+Esta composição visual explora a fusão entre formas naturais e elementos abstratos, apresentando ondas curvas que se entrelaçam em padrões
+florais luminosos. Cada flor é gerada por uma série de ondulações radiais que criam pétalas delicadas, ondulantes, formando um conjunto
+harmônico de flores estilizadas.O efeito 3D e o brilho suave nas bordas realçam a sensação de relevo e luz, evocando uma atmosfera etérea 
+e fluida. O fundo em degradê azul, que transita do azul escuro ao azul claro, amplia a profundidade e a serenidade da cena, remetendo ao movimento e à transparência da água.
+Inspirado nas ondas do mar e na delicadeza das flores, esta obra visualiza a energia vital presente na natureza, traduzida em curvas luminosas e cores que transmitem leveza, 
+movimento e elegância.
 
 ---
 
