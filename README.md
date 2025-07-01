@@ -84,7 +84,9 @@ Esta peça integra o projeto Museu Virtual, que busca unir tecnologia e express�
 
 ## 5 - Ecos Líquidos
 
-![image](https://github.com/user-attachments/assets/b636eb1d-59d1-4ced-a993-a2bc42f8533f)
+![image](https://github.com/user-attachments/assets/5f5b8870-a44d-43ac-9808-eb907244cd2e)
+
+
 
 ## Descrição da Arte
 A obra digital Ecos Líquidos explora a complexidade da água em movimento através de uma representação tridimensional de respingos e ondas concêntricas.
