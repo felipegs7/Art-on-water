@@ -1,54 +1,50 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.patches import Circle
-from matplotlib.collections import PatchCollection
+from matplotlib.colors import LinearSegmentedColormap
+import matplotlib.patheffects as pe
 
-def vortex_drops(num_drops=50, radius=1.0, time=0):
-    # Gera posições em torno de um círculo com efeito de vórtice em movimento
-    angles = np.linspace(0, 2*np.pi, num_drops, endpoint=False)
-    drops = []
-    
-    for i, angle in enumerate(angles):
-        # Variação radial com movimento ondulado para simular fluxo da água
-        r = radius * (0.7 + 0.3 * np.sin(4 * angle + 3 * time + i))
-        x = r * np.cos(angle)
-        y = r * np.sin(angle)
-        
-        # Variação do tamanho da gota para dar sensação 3D
-        drop_radius = 0.07 + 0.03 * np.cos(6 * angle + 5 * time + i)
-        
-        drops.append((x, y, drop_radius))
-    return drops
+def create_wave_petals(amplitude=0.3, n_points=300, n_petals=6, phase=0):
+    t = np.linspace(0, 2*np.pi, n_points)
+    r = 0.5 + amplitude * np.sin(n_petals * t + phase)
+    x = r * np.cos(t)
+    y = r * np.sin(t)
+    return x, y
 
-def plot_vortex_water():
-    fig, ax = plt.subplots(figsize=(8,8))
-    ax.set_aspect('equal')
+def plot_wave_flowers():
+    fig, ax = plt.subplots(figsize=(6,6))
+
+    # Fundo degradê azul horizontal
+    gradient = np.linspace(0, 1, 256)
+    gradient = np.tile(gradient, (256,1))
+    cmap = LinearSegmentedColormap.from_list('blue_gradient', ['#00305a', '#0073c2'])
+    ax.imshow(gradient, aspect='auto', cmap=cmap, extent=[-1,1,-1,1])
+
     ax.axis('off')
-    
-    # Fundo gradiente azul para azul claro
-    gradient = np.linspace(0,1,256).reshape(1,-1)
-    ax.imshow(gradient, aspect='auto', cmap='Blues', extent=[-1.5,1.5,-1.5,1.5], alpha=1, zorder=0)
-    
-    time = 0
-    drops = vortex_drops(num_drops=70, radius=1.2, time=time)
-    
-    patches = []
-    colors = []
-    for i, (x, y, r) in enumerate(drops):
-        circle = Circle((x, y), r)
-        patches.append(circle)
-        
-        # Cor variando do azul escuro para azul claro, com transparência e brilho
-        base_color = np.array([0.2, 0.5, 0.9])
-        light_color = np.array([0.7, 0.9, 1.0])
-        mix = (np.sin(i * 0.3 + time) + 1)/2
-        color = base_color * (1 - mix) + light_color * mix
-        colors.append(color)
-    
-    collection = PatchCollection(patches, facecolors=colors, edgecolors='white', linewidths=0.6, alpha=0.7)
-    ax.add_collection(collection)
-    
+    ax.set_xlim(-1,1)
+    ax.set_ylim(-1,1)
+    ax.set_aspect('equal')
+
+    n_flowers = 8
+    for i in range(n_flowers):
+        angle = 2 * np.pi * i / n_flowers
+        x, y = create_wave_petals(amplitude=0.3, n_petals=7, phase=angle)
+        x_rot = x * np.cos(angle) - y * np.sin(angle)
+        y_rot = x * np.sin(angle) + y * np.cos(angle)
+
+        # Linha base - brilho (mais grossa, quase branca e transparente)
+        ax.plot(x_rot, y_rot, color='white', linewidth=10, alpha=0.12, solid_capstyle='round')
+
+        # Linha principal azul clara
+        ax.plot(x_rot, y_rot, color='#b3d9ff', linewidth=5, alpha=0.8, solid_capstyle='round',
+                path_effects=[pe.SimpleLineShadow(shadow_color='white', alpha=0.4, rho=1.2),
+                              pe.Normal()])
+
+        # Linha fina branca para borda 3D brilhante
+        ax.plot(x_rot, y_rot, color='white', linewidth=1.5, alpha=0.9, solid_capstyle='round')
+
     plt.tight_layout()
     plt.show()
 
-plot_vortex_water()
+if __name__ == "__main__":
+    plot_wave_flowers()
+
