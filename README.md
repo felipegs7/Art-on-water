@@ -41,7 +41,8 @@ uma sensação de profundidade e brilho etéreo.
 
 ## 2 - Fluxo Abstrato Azul
 
-![image](https://github.com/user-attachments/assets/950ee7b1-6cd2-4d68-970a-d377064526cd)
+![image](https://github.com/user-attachments/assets/611b98d3-f21a-439a-b736-a96a0b5de9f8)
+
 
 ## Descrição da Arte:
 
