@@ -26,7 +26,7 @@ Juntas, essas ferramentas permitem criar uma composição visual sofisticada que
 integrando-se ao projeto Museu Virtual para celebrar a beleza e complexidade da água em sua forma digital.
 
 ---
-## 1 - Ondas Tubulares luminosas
+## 1 - Ondas Florais luminosas
 
 ![image](https://github.com/user-attachments/assets/3e5748a4-12f5-473f-afc6-f19637b897f9)
 
